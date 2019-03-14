@@ -1,0 +1,105 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking-RACRetryExtensions (0.2.0):
+    - AFNetworking (~> 2.x)
+    - ReactiveCocoa (~> 2.x)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMap3DMap (6.2.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.2)
+  - AMapSearch (6.1.1):
+    - AMapFoundation (~> 1.4)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GTSDK (2.2.0.0)
+  - MJRefresh (3.1.15.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDVersion (4.3.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.1.2)
+  - UMengAnalytics (4.2.4)
+  - XHImageViewer (0.1.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AFNetworking-RACRetryExtensions
+  - AMap3DMap
+  - AMapSearch
+  - FMDB (~> 2.6.2)
+  - GTSDK
+  - MJRefresh
+  - ReactiveCocoa
+  - SDVersion
+  - SDWebImage (~> 3)
+  - SVProgressHUD
+  - UMengAnalytics
+  - XHImageViewer
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AFNetworking-RACRetryExtensions
+    - AMap3DMap
+    - AMapFoundation
+    - AMapSearch
+    - FMDB
+    - GTSDK
+    - MJRefresh
+    - ReactiveCocoa
+    - SDVersion
+    - SDWebImage
+    - SVProgressHUD
+    - UMengAnalytics
+    - XHImageViewer
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking-RACRetryExtensions: d22d7330b099eb437c19ce08e5c39e1d2d4fbe06
+  AMap3DMap: 4170b8e1674883eefc068e277abf4dbaa9ea5f2d
+  AMapFoundation: 46b194013a3b06e0e82e8963108ceb972d4200b8
+  AMapSearch: 3dcbf85c403a2a0fe0eda5318caabc272b31f5e1
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GTSDK: 9be6d3c6e7608cb78bb35deba7dbabcde651b0c3
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDVersion: 18f32c835c1543611fcfae3c6accd9a04b90597e
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  XHImageViewer: 7b275d2aa829e56761c30303b9d51cae086a90b9
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 77dd822d72a08a96f18d32c982004182805caf46
+
+COCOAPODS: 1.5.3

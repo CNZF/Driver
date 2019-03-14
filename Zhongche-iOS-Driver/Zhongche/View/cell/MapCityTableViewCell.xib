@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="57" id="KGk-i7-Jjw" customClass="MapCityTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="startPoint.png" translatesAutoresizingMaskIntoConstraints="NO" id="68d-Hb-MJg">
+                        <rect key="frame" x="17" y="18" width="18" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="RXg-xB-94x"/>
+                            <constraint firstAttribute="width" constant="18" id="fCr-q3-yoD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="李先生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLB-U9-ufi">
+                        <rect key="frame" x="316" y="18" width="59" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="u7G-Ke-U8E"/>
+                            <constraint firstAttribute="width" constant="59" id="w0B-QI-3d7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="startphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="grq-7I-VVg">
+                        <rect key="frame" x="278" y="16" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="C8y-Fe-TKs"/>
+                            <constraint firstAttribute="height" constant="25" id="dKY-AB-EJb"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulP-Di-Qqt">
+                        <rect key="frame" x="267" y="1" width="108" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="108" id="8vJ-3r-9gs"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1g-TP-r45">
+                        <rect key="frame" x="53" y="13" width="199" height="34.5"/>
+                        <attributedString key="attributedText"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="ulP-Di-Qqt" secondAttribute="bottom" constant="-6.5" id="438-R2-Is9"/>
+                    <constraint firstItem="grq-7I-VVg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="5UN-nm-AKT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ulP-Di-Qqt" secondAttribute="trailing" constant="-8" id="62i-4Q-ur3"/>
+                    <constraint firstItem="ulP-Di-Qqt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-7" id="DTX-OQ-eEw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ZLB-U9-ufi" secondAttribute="trailing" constant="-8" id="OOV-tj-3cD"/>
+                    <constraint firstItem="68d-Hb-MJg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="OtK-Dc-bwD"/>
+                    <constraint firstItem="ZLB-U9-ufi" firstAttribute="leading" secondItem="grq-7I-VVg" secondAttribute="trailing" constant="13" id="Xt4-GT-ldK"/>
+                    <constraint firstItem="j1g-TP-r45" firstAttribute="leading" secondItem="68d-Hb-MJg" secondAttribute="trailing" constant="18" id="cVv-Pr-emM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="j1g-TP-r45" secondAttribute="bottom" constant="4" id="g7t-OO-J6Z"/>
+                    <constraint firstItem="ZLB-U9-ufi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="hQg-Ze-JJG"/>
+                    <constraint firstItem="j1g-TP-r45" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="kmZ-yn-vJB"/>
+                    <constraint firstItem="ulP-Di-Qqt" firstAttribute="leading" secondItem="j1g-TP-r45" secondAttribute="trailing" constant="15" id="oYY-nM-iWh"/>
+                    <constraint firstItem="68d-Hb-MJg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="ybe-6x-ASd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnPhone" destination="ulP-Di-Qqt" id="6Bb-Hc-UC7"/>
+                <outlet property="ivPhone" destination="grq-7I-VVg" id="3qR-DS-UZe"/>
+                <outlet property="ivPoint" destination="68d-Hb-MJg" id="bCB-yd-wWZ"/>
+                <outlet property="lbAddress" destination="j1g-TP-r45" id="bBh-0V-mxh"/>
+                <outlet property="lbName" destination="ZLB-U9-ufi" id="JLp-f0-txW"/>
+            </connections>
+            <point key="canvasLocation" x="281.5" y="331.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="startPoint.png" width="36" height="42"/>
+        <image name="startphone.png" width="42" height="42"/>
+    </resources>
+</document>

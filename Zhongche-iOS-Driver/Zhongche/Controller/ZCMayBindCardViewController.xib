@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZCMayBindCardViewController">
+            <connections>
+                <outlet property="btnChangeBankCard" destination="LkE-1Z-bVH" id="DCu-Mk-q7W"/>
+                <outlet property="lbBankName" destination="6On-Fa-hzJ" id="vmI-6S-zNm"/>
+                <outlet property="lbBankNum" destination="52R-Tb-RTk" id="zZN-Ga-dUr"/>
+                <outlet property="lbUserName" destination="7Qi-Fg-t5a" id="TdC-yn-UVw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已绑定银行卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2w-Co-daz">
+                    <rect key="frame" x="14" y="27" width="106" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="106" id="DzP-uf-1Pp"/>
+                        <constraint firstAttribute="height" constant="21" id="cUw-bO-0om"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7WA-D5-tKQ">
+                    <rect key="frame" x="0.0" y="60" width="320" height="110"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*  *  *  *  *  *  *  *  *  *" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDD-HB-jf4">
+                            <rect key="frame" x="70" y="69" width="163" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="NRb-oz-KPC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="  6754" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52R-Tb-RTk">
+                            <rect key="frame" x="234" y="66" width="86" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="UFt-o3-T7X"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国工商银行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6On-Fa-hzJ">
+                            <rect key="frame" x="70" y="15" width="250" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="O38-YB-wZU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="持卡人：李雪阳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qi-Fg-t5a">
+                            <rect key="frame" x="70" y="40" width="220" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="52R-Tb-RTk" firstAttribute="top" secondItem="7Qi-Fg-t5a" secondAttribute="bottom" constant="5" id="06E-MH-ZgQ"/>
+                        <constraint firstItem="7Qi-Fg-t5a" firstAttribute="top" secondItem="6On-Fa-hzJ" secondAttribute="bottom" constant="4" id="5gw-IZ-SiB"/>
+                        <constraint firstItem="52R-Tb-RTk" firstAttribute="leading" secondItem="SDD-HB-jf4" secondAttribute="trailing" constant="1" id="F9Y-9o-7Xd"/>
+                        <constraint firstItem="SDD-HB-jf4" firstAttribute="top" secondItem="6On-Fa-hzJ" secondAttribute="bottom" constant="33" id="KB3-BI-zU8"/>
+                        <constraint firstAttribute="height" constant="110" id="Tap-cf-5i3"/>
+                        <constraint firstItem="52R-Tb-RTk" firstAttribute="leading" secondItem="SDD-HB-jf4" secondAttribute="trailing" constant="1" id="fDK-hI-YXk"/>
+                        <constraint firstItem="6On-Fa-hzJ" firstAttribute="top" secondItem="7WA-D5-tKQ" secondAttribute="top" constant="15" id="joc-Ma-gak"/>
+                        <constraint firstItem="7Qi-Fg-t5a" firstAttribute="leading" secondItem="7WA-D5-tKQ" secondAttribute="leading" constant="70" id="omo-Bf-tSU"/>
+                        <constraint firstItem="SDD-HB-jf4" firstAttribute="leading" secondItem="7WA-D5-tKQ" secondAttribute="leading" constant="70" id="psd-cK-CsL"/>
+                        <constraint firstAttribute="trailing" secondItem="6On-Fa-hzJ" secondAttribute="trailing" id="rCs-Hj-Bcm"/>
+                        <constraint firstItem="6On-Fa-hzJ" firstAttribute="leading" secondItem="7WA-D5-tKQ" secondAttribute="leading" constant="70" id="rFe-jV-l2N"/>
+                        <constraint firstAttribute="trailing" secondItem="7Qi-Fg-t5a" secondAttribute="trailing" constant="30" id="rZ9-ti-Yrk"/>
+                        <constraint firstItem="52R-Tb-RTk" firstAttribute="top" secondItem="6On-Fa-hzJ" secondAttribute="bottom" constant="30" id="uf5-OJ-vIc"/>
+                        <constraint firstAttribute="trailing" secondItem="52R-Tb-RTk" secondAttribute="trailing" id="yqu-Ev-HeV"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkE-1Z-bVH">
+                    <rect key="frame" x="20" y="192" width="281" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="hct-Cy-WmO"/>
+                    </constraints>
+                    <state key="normal" title="更换银行卡">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="changeBankCardAction:" destination="-1" eventType="touchUpInside" id="h33-N7-cwh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更换后银行卡后，当前绑定的银行卡会自动解绑" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dF-AE-gHt">
+                    <rect key="frame" x="0.0" y="248" width="320" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="GQa-o5-maL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1dF-AE-gHt" secondAttribute="trailing" id="Keu-uP-jas"/>
+                <constraint firstAttribute="trailing" secondItem="7WA-D5-tKQ" secondAttribute="trailing" id="N2m-Zu-TUA"/>
+                <constraint firstItem="D2w-Co-daz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="14" id="OD4-IX-Bin"/>
+                <constraint firstItem="LkE-1Z-bVH" firstAttribute="top" secondItem="7WA-D5-tKQ" secondAttribute="bottom" constant="22" id="QgS-f1-Ji0"/>
+                <constraint firstItem="1dF-AE-gHt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RC4-cQ-H4u"/>
+                <constraint firstAttribute="trailing" secondItem="LkE-1Z-bVH" secondAttribute="trailing" constant="19" id="WMI-c9-5dS"/>
+                <constraint firstItem="7WA-D5-tKQ" firstAttribute="top" secondItem="D2w-Co-daz" secondAttribute="bottom" constant="12" id="hr9-HK-PfT"/>
+                <constraint firstItem="7WA-D5-tKQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iEH-rN-d2j"/>
+                <constraint firstItem="D2w-Co-daz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="27" id="iJP-Vy-uOf"/>
+                <constraint firstItem="1dF-AE-gHt" firstAttribute="top" secondItem="LkE-1Z-bVH" secondAttribute="bottom" constant="12" id="r49-hD-q4A"/>
+                <constraint firstItem="LkE-1Z-bVH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="yml-iZ-HBU"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

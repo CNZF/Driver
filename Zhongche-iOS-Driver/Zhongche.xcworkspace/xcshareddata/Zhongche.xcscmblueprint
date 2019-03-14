@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a40f21e0-2217-6f4f-9dd4-71e6de7fa72e++3960",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a40f21e0-2217-6f4f-9dd4-71e6de7fa72e++3960" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a40f21e0-2217-6f4f-9dd4-71e6de7fa72e++3960" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "84761C8A-4BC6-4CEB-965A-1E82CF816374",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a40f21e0-2217-6f4f-9dd4-71e6de7fa72e++3960" : "Zhongche-iOS-driver1.1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Zhongche",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Zhongche.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.62\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a40f21e0-2217-6f4f-9dd4-71e6de7fa72e++3960"
+    }
+  ]
+}
